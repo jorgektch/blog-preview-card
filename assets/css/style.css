@@ -1,15 +1,28 @@
+@font-face {
+    font-family: "font-normal";
+    src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "font-italic";
+    src: url("/assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+
 body{
     background-color: #F5D04E;
+    font-family: "font-normal";
 }
 
 .card {
-    border: solid 1px black;
+    border: solid 2px black;
+    border-radius: 1rem;
     background-color: #ffffff;
     padding: 1rem;
+    box-shadow: 10px 10px; /* Desplazameintos x, y */
 }
 
 .card__image {
-
+    border-radius: 1rem;
 }
 
 .card__header {
