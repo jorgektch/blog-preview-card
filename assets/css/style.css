@@ -47,17 +47,23 @@ section {
 }
 
 .card__header__badge {
-    border-radius: 10%;
-    padding: 0.5rem;
-    background-color: #F5D04E;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 14px;
+    margin: 0px 0px;
+    /*background-color: #F5D04E;*/
+    background-color: red;
 }
 
 .card__header__time {
-    
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .card__header__title {
-    
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .card__footer {
