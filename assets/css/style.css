@@ -39,6 +39,7 @@ section {
 
 .card__image {
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .card__header {
@@ -47,6 +48,7 @@ section {
 }
 
 .card__header__badge {
+    display: inline-block; /* Ya no se comporta como un bloque*/
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
@@ -57,23 +59,41 @@ section {
 }
 
 .card__header__time {
+    color: red;
     font-size: 14px;
     font-weight: bold;
+    padding: 0;
+    margin-top: 13px;
 }
 
 .card__header__title {
+    color: red;
     font-size: 24px;
     font-weight: bold;
+    padding: 0;
+    margin: 18px 0px;
+}
+
+.card__body {
+    line-height: 24px;
+    font-size: 16px;
+    color: red;
+    margin-top: 5px 0px;
 }
 
 .card__footer {
     
 }
 
-.card__image {
-    
+.card__footer__image {
+    width: 35px;
 }
 
 .card__author {
-    
+    font-size: 14px;
+}
+.card__author__a {
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
 }
