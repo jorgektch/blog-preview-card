@@ -1,0 +1,44 @@
+body{
+    background-color: #F5D04E;
+}
+
+.card {
+    border: solid 1px black;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.card__image {
+
+}
+
+.card__header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card__header__badge {
+    border-radius: 10%;
+    padding: 0.5rem;
+    background-color: #F5D04E;
+}
+
+.card__header__time {
+    
+}
+
+.card__header__title {
+    
+}
+
+.card__footer {
+    display: flex;
+}
+
+.card__image {
+    
+}
+
+.card__author {
+    
+}
