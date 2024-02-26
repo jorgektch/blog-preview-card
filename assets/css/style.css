@@ -35,7 +35,7 @@ section {
     /* Borde y sombras */
     border: solid 1px black;
     border-radius: 20px;
-    box-shadow: red 7px 7px; /* Desplazameintos x, y */
+    box-shadow: red 9px 9px; /* Desplazameintos x, y */
     /* Color */
     background-color: #ffffff;
     
