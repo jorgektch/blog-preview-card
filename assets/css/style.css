@@ -16,20 +16,24 @@ body{
 section {
     /* Dimensiones */
     min-height: 100vh;
+    margin-top: 250px; /**/
+    margin-left: 590px;
     /* Centrado */
+    /*
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    */
 }
 
 .card {
     /* Dimensiones */
-    width: 340px;
-    height: 480px;
-    padding: 20px;
+    width: 380px;
+    height: 520px;
+    padding: 25px;
     /* Borde y sombras */
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 20px;
     box-shadow: red 7px 7px; /* Desplazameintos x, y */
     /* Color */
@@ -38,6 +42,9 @@ section {
 }
 
 .card__image {
+    width: 100%;
+    height: auto;
+    border-color: red;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -49,10 +56,10 @@ section {
 
 .card__header__badge {
     display: inline-block; /* Ya no se comporta como un bloque*/
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 5px;
-    padding: 7px 14px;
+    padding: 8px 15px;
     margin: 0px 0px;
     /*background-color: #F5D04E;*/
     background-color: red;
@@ -60,35 +67,36 @@ section {
 
 .card__header__time {
     color: red;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     padding: 0;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 .card__header__title {
     color: red;
-    font-size: 24px;
+    font-size: 27px;
     font-weight: bold;
     padding: 0;
-    margin: 18px 0px;
+    margin: 20px 0px;
 }
 
 .card__body {
-    line-height: 24px;
-    letter-spacing: 0.015em;
-    font-size: 16px;
+    line-height: 26px;
+    
+    font-size: 19px;
     color: red;
     margin-top: 5px 0px;
 }
 
 .card__footer {
-    margin-top: 18px;
+    margin-top: 19px;
     display: flex;
 }
 
 .card__footer__image {
-    width: 35px;
+    width: 33px;
+    height: 33px;
     padding-right: 8px;
 }
 
